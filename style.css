@@ -8,7 +8,7 @@
 
 body {
   font-family: "Fraunces", serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   background-color: hsl(30, 38%, 92%);
   min-height: 100vh;
   display: flex;
@@ -44,9 +44,12 @@ body {
   color: rgb(28, 35, 43);
   padding: 48px 32px 48px 32px;
 }
+.card__image, .card__content {
+  flex: 50%;
+}
 /* caard title */
 .card__title {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   margin: 0px 0px 28px;
   padding: 0px 32px 0px 0px;
@@ -85,7 +88,7 @@ body {
 
 .card__price--new {
   color: rgb(60, 128, 103);
-  font-size: 32px;
+  font-size: 2rem;
   font-family: "Fraunces", serif;
   font-weight: 700;
 }
@@ -132,10 +135,10 @@ body {
     padding: 16px;
   }
   .card__title {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   .card__description {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .card__price {
     flex-direction: row;
@@ -144,7 +147,7 @@ body {
     margin-left: 0px;
   }
   .card__price--new {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .card__button {
     margin-top: 16px;

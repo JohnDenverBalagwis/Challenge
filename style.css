@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Fraunces", serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   background-color: hsl(30, 38%, 92%);
   min-height: 100vh;
@@ -17,7 +17,6 @@ body {
 }
 /* Card */
 .card {
-  width: 100%;
   text-align: center;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
@@ -49,6 +48,7 @@ body {
 }
 /* caard title */
 .card__title {
+  font-family: 'Fraunces', serif;
   font-size: 2rem;
   font-weight: 700;
   margin: 0px 0px 28px;
@@ -61,7 +61,6 @@ body {
 }
 .card__description,
 .mini__title {
-  font-family: Montserrat, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   margin: 0px 0px 28px;
@@ -83,7 +82,7 @@ body {
 .card__price--old {
   color: rgb(108, 114, 137);
   text-decoration: line-through;
-  font-family: Montserrat, sans-serif;
+
 }
 
 .card__price--new {
@@ -98,11 +97,10 @@ body {
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 10px;
-  font-weight: normal;
+  font-weight: 700;
   cursor: pointer;
   width: 100%;
   padding: 16px 32px;
-  font-family: Montserrat, sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
